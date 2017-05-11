@@ -100,6 +100,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Premium cards are now working well after a trade or if you purchase them through manual or automatic user shops.
 * Fixed a bug where if a user purchased something through the user shops window (F6 in the lobby), the owner of the card would not get any code.
 * Fixed a bug where memos didn't show who sent the memo.
+* Fixed a bug where you had to change characters once before the correct mission level appeared while joining a mission game.
 
 # 10/05/2017
 * You now lose points and code for leaving an ongoing game, in some game modes (just like the original SP).
