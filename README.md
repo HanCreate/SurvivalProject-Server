@@ -87,6 +87,11 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Big battle death match isn't working when playing on lower channels.
 * ~~Login, enter a server, leave, try to change a main character. A null pointer exception would be thrown.~~
 
+# 11/05/2017
+* User shop: You can now buy cards from a manual user shop.
+* User shop: You now get the shops when you join the room (even if the shop was opened before you joined the room).
+* User shop: You can now put and buy elements from the manual user shop.
+
 # 10/05/2017
 * You now lose points and code for leaving an ongoing game, in some game modes (just like the original SP).
 * You now gain a lose after you leave an ongoing game only in certain game modes (in ones where you also lose points and code).
