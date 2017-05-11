@@ -31,6 +31,8 @@ In order to fix that, go to images\strings.xml and change "Character" in line 47
 
 **@guild-leave** - leaves your guild.
 
+**@anger** - sets the anger limit on and off. Will take effect when you create a new room.
+
 # Bugs in the client
 There are some visual bugs in the client that the server cannot fix. To fix them, close the game and run the game again.
 * When you use a ranged attack, the projectile is invisible. May happen after an infinity symbol mode game.
@@ -88,6 +90,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * ~~Login, enter a server, leave, try to change a main character. A null pointer exception would be thrown.~~
 
 # 11/05/2017
+* Added the @anger chat command. It sets the anger limit on and off.
 * User shop: You can now buy cards from a manual user shop.
 * User shop: You now get the shops when you join the room (even if the shop was opened before you joined the room).
 * User shop: You can now put and buy elements from the manual user shop.
