@@ -26,8 +26,8 @@ public class User {
 	private String password;
 	private int mainCharacter;
 	private int playerLevel;
-	private int usuableCharacterCount;
-	private int ageRestriction;
+	private int usuableCharacterCount = 12;
+	private int ageRestriction = 1;
 	private long playerExperience;
 	private long playerCode;
 	private long avatarMoney;
@@ -64,19 +64,19 @@ public class User {
 	private boolean male;
 	private boolean connected;
 	
-	private int magicIndex;
-	private int weaponIndex;
-	private int accessoryIndex;
-	private int petIndex;
+	private int magicIndex = -1;
+	private int weaponIndex = -1;
+	private int accessoryIndex = -1;
+	private int petIndex = -1;
 	
-	private int footIndex;
-	private int bodyIndex;
-	private int hand1Index;
-	private int hand2Index;
-	private int faceIndex;
-	private int hairIndex;
-	private int headIndex;
-	private int missionLevel;
+	private int footIndex = -1;
+	private int bodyIndex = -1;
+	private int hand1Index = -1;
+	private int hand2Index = -1;
+	private int faceIndex = -1;
+	private int hairIndex = -1;
+	private int headIndex = -1;
+	private int missionLevel = 1;
 	
 	private boolean isInRoom = false;
 	private boolean isInGame = false;
