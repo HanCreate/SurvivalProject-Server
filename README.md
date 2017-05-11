@@ -36,7 +36,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * When you use a ranged attack, the projectile is invisible. May happen after an infinity symbol mode game.
 
 # Features that aren't working yet
-- [ ] Manual user shops
+- [x] Manual user shops
 - [ ] Spectators
 - [ ] Training records
 - [ ] Events
@@ -50,7 +50,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [x] Master card
 - [ ] Elemental bonus x3
 - [ ] Super Silver
-- [ ] User shop I
+- [x] User shop I
 
 # TODO
 - [ ] Change the server sockets to NIO sockets.
@@ -91,6 +91,8 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * User shop: You can now buy cards from a manual user shop.
 * User shop: You now get the shops when you join the room (even if the shop was opened before you joined the room).
 * User shop: You can now put and buy elements from the manual user shop.
+* User shop: Manual user shops now appear in the user shops window, and you can purchase manual user cards through that window.
+* Fixed a bug where if a user purchased something through the user shops window (F6 in the lobby), the owner of the card would not get any code.
 
 # 10/05/2017
 * You now lose points and code for leaving an ongoing game, in some game modes (just like the original SP).
