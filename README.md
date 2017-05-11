@@ -56,7 +56,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [ ] Change the server sockets to NIO sockets.
 - [ ] Change the guild points formula to the correct one.
 - [ ] Change every game over message to a round over message.
-- [ ] Premium cards are only working when you buy them in the cards shop (will be changed once trades/user shops are completely implemented).
+- [x] Premium cards are only working when you buy them in the cards shop (will be changed once trades/user shops are completely implemented).
 - [ ] Clean the game modes code a bit.
 - [ ] The experience/code a player gains after a mission isn't correct.
 - [ ] Change the mission lost packet to GameCompletedHandler.
@@ -92,6 +92,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * User shop: You now get the shops when you join the room (even if the shop was opened before you joined the room).
 * User shop: You can now put and buy elements from the manual user shop.
 * User shop: Manual user shops now appear in the user shops window, and you can purchase manual user cards through that window.
+* Premium cards are now working well after a trade or if you purchase them through manual or automatic user shops.
 * Fixed a bug where if a user purchased something through the user shops window (F6 in the lobby), the owner of the card would not get any code.
 
 # 10/05/2017
