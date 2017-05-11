@@ -61,7 +61,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [x] Premium cards are only working when you buy them in the cards shop (will be changed once trades/user shops are completely implemented).
 - [ ] Clean the game modes code a bit.
 - [ ] The experience/code a player gains after a mission isn't correct.
-- [ ] Change the mission lost packet to GameCompletedHandler.
+- [x] Change the mission lost packet to GameCompletedHandler.
 - [x] After a chat command is completed, send the user a response.
 - [x] After a trade, a 96 cards saveCards method is called. Change that to 4.
 - [x] Get the right amount of experience, after calculating the game mode, guild rank, master card and so on.
