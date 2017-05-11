@@ -56,7 +56,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # TODO
 - [ ] Change the server sockets to NIO sockets.
-- [ ] Change the guild points formula to the correct one.
+- [x] Change the guild points formula to the correct one.
 - [ ] Change every game over message to a round over message.
 - [x] Premium cards are only working when you buy them in the cards shop (will be changed once trades/user shops are completely implemented).
 - [ ] Clean the game modes code a bit.
@@ -91,6 +91,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # 11/05/2017
 * Added the @anger chat command. It sets the anger limit on and off.
+* The guild points formula is now the correct one.
 * User shop: You can now buy cards from a manual user shop.
 * User shop: You now get the shops when you join the room (even if the shop was opened before you joined the room).
 * User shop: You can now put and buy elements from the manual user shop.
