@@ -89,6 +89,9 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Big battle death match isn't working when playing on lower channels.
 * ~~Login, enter a server, leave, try to change a main character. A null pointer exception would be thrown.~~
 
+# 12/05/2017
+* Fixed a bug where the guild points formula was not calculated correctly if there was less than 4 people in a lot of game modes.
+
 # 11/05/2017
 * Added the @anger chat command. It sets the anger limit on and off.
 * The guild points formula is now the correct one.
