@@ -94,6 +94,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Fixed a bug where if you had joined a mission, you had to change a character once before the correct mission level would appear.
 * Fixed a bug where the guild points formula was not calculated correctly if there was less than 4 people in a lot of game modes.
 * Fixed a bug where the guild tab of people who joined a room was not updated correctly.
+* Fixed a bug where king survival mode would crash the game if there was a big delay between the game and the server. 
 
 # 11/05/2017
 * Added the @anger chat command. It sets the anger limit on and off.
