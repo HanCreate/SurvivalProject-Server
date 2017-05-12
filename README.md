@@ -90,6 +90,8 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * ~~Login, enter a server, leave, try to change a main character. A null pointer exception would be thrown.~~
 
 # 12/05/2017
+* Players now spawn only when everyone is ready in mission mode.
+* Fixed a bug where if you had joined a mission, you had to change a character once before the correct mission level would appear.
 * Fixed a bug where the guild points formula was not calculated correctly if there was less than 4 people in a lot of game modes.
 * Fixed a bug where the guild tab of people who joined a room was not updated correctly.
 
