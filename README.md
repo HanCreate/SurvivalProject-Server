@@ -91,6 +91,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # 12/05/2017
 * Fixed a bug where the guild points formula was not calculated correctly if there was less than 4 people in a lot of game modes.
+* Fixed a bug where the guild tab of people who joined a room was not updated correctly.
 
 # 11/05/2017
 * Added the @anger chat command. It sets the anger limit on and off.
