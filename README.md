@@ -44,7 +44,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # Game modes that aren't working yet
 - [ ] Infinity survival mode
-- [ ] King slayer mode
+- [x] King slayer mode
 
 # Premiums cards that aren't working yet
 - [ ] Elemental bonus x3
@@ -73,6 +73,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # 13/05/2017
 * Crystal capture mode is now working.
+* King slayer mode is now working.
 
 # 12/05/2017
 * Players now spawn only when everyone is ready in mission mode.
