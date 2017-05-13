@@ -75,6 +75,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 # 13/05/2017
 * Crystal capture mode is now working.
 * King slayer mode is now working.
+* Fixed a bug where scoring a hockey goal would give a point to the opposite team.
 
 # 12/05/2017
 * Players now spawn only when everyone is ready in mission mode.
