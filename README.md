@@ -56,6 +56,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [ ] Clean the game modes code a bit.
 - [ ] The experience/code a player gains after a mission isn't correct.
 - [ ] Master card code should be x2 and not x1.5 in some game modes.
+- [ ] Handle a player leave and a team leave on all of the game modes (what happens when all of the players of one team leave? The other team should get a draw).
 
 # TODOs that can't be completed at the moment
 - [ ] Try to find a way to translate the korean macros and if I can't, change the built-in korean commands to my own commands.
