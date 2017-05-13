@@ -38,7 +38,6 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * When you use a ranged attack, the projectile is invisible. May happen after an infinity symbol mode game.
 
 # Features that aren't working yet
-- [x] Manual user shops
 - [ ] Spectators
 - [ ] Training records
 - [ ] Events
@@ -46,28 +45,17 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 # Game modes that aren't working yet
 - [ ] Infinity survival mode
 - [ ] King slayer mode
-- [x] Crystal capture mode
 
 # Premiums cards that aren't working yet
-- [x] Master card
 - [ ] Elemental bonus x3
 - [ ] Super Silver
-- [x] User shop I
 
 # TODO
 - [ ] Change the server sockets to NIO sockets.
-- [x] Change the guild points formula to the correct one.
 - [ ] Change every game over message to a round over message.
-- [x] Premium cards are only working when you buy them in the cards shop (will be changed once trades/user shops are completely implemented).
 - [ ] Clean the game modes code a bit.
 - [ ] The experience/code a player gains after a mission isn't correct.
-- [x] Change the mission lost packet to GameCompletedHandler.
-- [x] After a chat command is completed, send the user a response.
-- [x] After a trade, a 96 cards saveCards method is called. Change that to 4.
-- [x] Get the right amount of experience, after calculating the game mode, guild rank, master card and so on.
-- [x] Gain code after you sell a card.
 - [ ] Master card code should be x2 and not x1.5 in some game modes.
-- [x] Losing code/points after leaving an ongoing game.
 
 # TODOs that can't be completed at the moment
 - [ ] Try to find a way to translate the korean macros and if I can't, change the built-in korean commands to my own commands.
@@ -79,15 +67,9 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [ ] Colored characters - can't find a way to get the change color button enabled... 
 
 # Known bugs
-* ~~Quest death experience/code gain is getting executed multiple times (because getResponse() is getting called multiple times).~~
 * Death timer in big matches doesn't work.
 * Big match experience/code gained doesn't work well (it seems slot 0 keeps getting exp).
-* ~~Level xx5 missions aren't working.~~
-* ~~If you use a random character, people in the lobby can't see that you picked a random character.~~
-* ~~If a user puts two cards of the same type and same price in the user shop, and someone purchase it, the two of them are removed.~~
-* ~~There's a bug that if there are 4 people in a room, sometimes the user player update message isn't getting sent. It happened in hero mode. Possible fix - make room methods synchronized. It also happened once when I played in a 1v1 tournament on two VMs and once when I played with someone else in survival mode on Windows 10.~~
 * Big battle death match isn't working when playing on lower channels.
-* ~~Login, enter a server, leave, try to change a main character. A null pointer exception would be thrown.~~
 
 # 13/05/2017
 * Crystal capture mode is now working.
