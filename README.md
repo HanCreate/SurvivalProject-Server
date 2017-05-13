@@ -46,7 +46,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 # Game modes that aren't working yet
 - [ ] Infinity survival mode
 - [ ] King slayer mode
-- [ ] Crystal capture mode
+- [x] Crystal capture mode
 
 # Premiums cards that aren't working yet
 - [x] Master card
@@ -88,6 +88,9 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * ~~There's a bug that if there are 4 people in a room, sometimes the user player update message isn't getting sent. It happened in hero mode. Possible fix - make room methods synchronized. It also happened once when I played in a 1v1 tournament on two VMs and once when I played with someone else in survival mode on Windows 10.~~
 * Big battle death match isn't working when playing on lower channels.
 * ~~Login, enter a server, leave, try to change a main character. A null pointer exception would be thrown.~~
+
+# 13/05/2017
+* Crystal capture mode is now working.
 
 # 12/05/2017
 * Players now spawn only when everyone is ready in mission mode.
