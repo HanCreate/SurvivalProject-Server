@@ -5,21 +5,17 @@ https://drive.google.com/file/d/0BzjxtOOu36E_ZnVTRVdXMTFuSDg/view?hc_location=uf
 
 * Install Survival Project. The password is "www.spgame.net".
 
+* Download dinput.dll, iosocketdll.dll and sp.exe (from this directory) and place them in your Survival Project folder. 
+
+* Right click on sp.exe, click on properties and go to compatibility. Tick "run this program as administrator" and on compatibility mode choose "Windows XP (Service pack 3)".
+
 * The archive also contains a file called gng.ini.
 Open it and change the IP to the IP of the server you're connecting to (or 127.0.0.1 if you want to play alone) and the port to 21000.
 When you're done, put it in your SP folder in the config directory.
 
 * Install msxml.msi (it should be in your Survival Project folder). If you already have it installed, **uninstall it** and install it again.
 
-**The following step is needed if you want to run the game on Windows 10:**
-
-* Put sp2.exe and dinput.dll of B6oy's SPNET.net client in your SP installation directory (This will enable you to play on Windows 10).
-
-To run the game, launch sp2.exe in Windows 10 or the normal launcher in any other Windows version.
-
-If you get an error while running sp2.exe, run it as administrator.
-
-**Also, do not rename sp2.exe to anything else, or the game won't launch.**
+To run the game, launch sp.exe.
 
 # Installing the server
 **The server files are not completed yet, therefore you would have to compile them yourself using any Java IDE.**
