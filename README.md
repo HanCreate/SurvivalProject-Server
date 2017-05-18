@@ -69,8 +69,12 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # Known bugs
 * Death timer in big matches doesn't work.
-* Big match experience/code gained doesn't work well (it seems slot 0 keeps getting exp).
+* ~~Big match experience/code gained doesn't work well (it seems slot 0 keeps getting exp).~~
 * Big battle death match isn't working when playing on lower channels.
+
+# 18/05/2017
+* The death timer in Big match survival mode is now working.
+* Fixed a bug where the experience and code a player had gained in big matches didn't work well.
 
 # 17/05/2017
 * Finally after 2 months I've managed to implement direct messages. It means that whenever a player in a room/game sends a message, the message is sent directly to everyone else in the room, without going through the server. If the server is terrible or if it's located somewhere far, the game could get laggy real fast. Now the latency is only affected by the distance between the two players, which means it's much less laggy.
