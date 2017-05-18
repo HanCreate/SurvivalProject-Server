@@ -78,6 +78,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * The death timer in big match death match is now working.
 * You now get x1 experience/code in the beginner channel, x4 in the hero channel and x10 in the epic channel.
 * Fixed a bug where the experience and code a player had gained in big matches didn't work well.
+* Fixed a bug where the game would "refresh" (every monster/npc was moved to a different location) if someone joined an ongoing game.
 
 # 17/05/2017
 * Finally after 2 months I've managed to implement direct messages. It means that whenever a player in a room/game sends a message, the message is sent directly to everyone else in the room, without going through the server. If the server is terrible or if it's located somewhere far, the game could get laggy real fast. Now the latency is only affected by the distance between the two players, which means it's much less laggy.
