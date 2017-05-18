@@ -70,7 +70,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 # Known bugs
 * ~~Death timer in big matches doesn't work.~~
 * ~~Big match experience/code gained doesn't work well (it seems slot 0 keeps getting exp).~~
-* Big battle death match isn't working when playing on lower channels.
+* Big battle death match isn't working when playing on the beginner channel.
 
 # 18/05/2017
 * The death timer in big match survival mode is now working.
