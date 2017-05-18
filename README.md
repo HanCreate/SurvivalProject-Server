@@ -74,6 +74,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # 18/05/2017
 * The death timer in Big match survival mode is now working.
+* The death timer in Big match auto team survival mode is now working.
 * Fixed a bug where the experience and code a player had gained in big matches didn't work well.
 
 # 17/05/2017
