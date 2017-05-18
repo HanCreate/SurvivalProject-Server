@@ -77,7 +77,8 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * The death timer in big match auto team survival mode is now working.
 * The death timer in big match death match is now working.
 * You now get x1 experience/code in the beginner channel, x4 in the hero channel and x10 in the epic channel.
-* Fixed a bug where the experience and code a player had gained in big matches didn't work well.
+* Fixed the bug where the experience and code a player had gained in big matches didn't work well.
+* Fixed a bug where big match death match did not work with 2+ players.
 * Fixed a bug where the game would "refresh" (every monster/npc was moved to a different location) if someone joined an ongoing game of race/big matches or missions.
 
 # 17/05/2017
