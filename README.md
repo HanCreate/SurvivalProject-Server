@@ -71,6 +71,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * ~~Death timer in big matches doesn't work.~~
 * ~~Big match experience/code gained doesn't work well (it seems slot 0 keeps getting exp).~~
 * Big battle death match isn't working when playing on the beginner channel.
+* Crystal death adds exp/code twice (once per getResponse()).
 
 # 19/05/2017
 * Fixed a bug where after getting a kill in big matches and leaving the server, the tutorial screen would show up instead of the servers list.
