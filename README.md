@@ -5,7 +5,7 @@ Server files for the game Survival Project, written in Java.
 
 For instructions on how to install Survival Project on Windows 10, go to the Win10 folder.
 
-Time spent on the project: **9 weeks**.
+Time spent on the project: **10 weeks**.
 
 For a weekly summary of the progress I'm making, follow me here:
 https://www.reddit.com/r/survivalproject/comments/5zm36i/started_writing_a_private_server_in_java
@@ -35,6 +35,7 @@ In order to fix that, go to images\strings.xml and change "Character" in line 47
 
 # Bugs in the client
 There are some visual bugs in the client that the server cannot fix. To fix them, close the game and run the game again.
+
 * When you use a ranged attack, the projectile is invisible. May happen after an infinity symbol mode game.
 
 # Features that aren't working yet
@@ -44,7 +45,6 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # Game modes that aren't working yet
 - [ ] Infinity survival mode
-- [x] King slayer mode
 
 # Premiums cards that aren't working yet
 - [ ] Elemental bonus x3
@@ -62,16 +62,11 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [ ] Try to find a way to translate the korean macros and if I can't, change the built-in korean commands to my own commands.
 - [ ] The option to send a reject message (after an invitation) is grayed out for some reason. If I manage to fix it, I need to make sure it actually works.
 - [ ] The option to change a character's color is grayed out for some reason. If I manage to fix it, I need to make sure it actually works.
-- [x] ~~Unpack b6oy's sp2.exe and get rid of the badboys.~~ - no longer necessary.
 - [ ] The experience/code a player gains after every game mode (except missions and infinity game modes) isn't correct - no videos or data about how much code and experience a player should get after a game is completed was found.
 - [ ] Implementing the card 'Premium Event' - This card gives you a better bonus in every event. I'm not going to implement that card until I find a way to get the events to work.
 
 # Known bugs
-* ~~Death timer in big matches doesn't work.~~
-* ~~Big match experience/code gained doesn't work well (it seems slot 0 keeps getting exp).~~
 * Big battle death match isn't working when playing on the beginner channel.
-* ~~Crystal death adds exp/code twice (once per getResponse()).~~
-* ~~Setting the timer in infinity king/symbol isn't really changing the timer.~~ - it actually works well.
 
 # 20/05/2017
 * Fixed the bug where progressing in quests (by picking up crystals for example) would give you double experience/code.
