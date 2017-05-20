@@ -69,6 +69,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Big battle death match isn't working when playing on the beginner channel.
 
 # 20/05/2017
+* Found a way to translate all of the Korean texts in the game.
 * Fixed the bug where progressing in quests (by picking up crystals for example) would give you double experience/code.
 * Fixed a bug where the timer in infinity king mode or infinity symbol mode would start when you changed the game length, and not when you start the game.
 
