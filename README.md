@@ -65,7 +65,6 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [x] ~~Unpack b6oy's sp2.exe and get rid of the badboys.~~ - no longer necessary.
 - [ ] The experience/code a player gains after every game mode (except missions and infinity game modes) isn't correct - no videos or data about how much code and experience a player should get after a game is completed was found.
 - [ ] Implementing the card 'Premium Event' - This card gives you a better bonus in every event. I'm not going to implement that card until I find a way to get the events to work.
-- [ ] Colored characters - can't find a way to get the change color button enabled... 
 
 # Known bugs
 * ~~Death timer in big matches doesn't work.~~
