@@ -74,6 +74,9 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Crystal death adds exp/code twice (once per getResponse()).
 * ~~Setting the timer in infinity king/symbol isn't really changing the timer.~~ - it actually works well.
 
+# 20/05/2017
+* Fixed a bug where the timer in infinity king mode or infinity symbol mode would start when you changed the game length, and not when you start the game.
+
 # 19/05/2017
 * Fixed a bug where after getting a kill in big matches and leaving the server, the tutorial screen would show up instead of the servers list.
 * Fixed a bug where killing other players in big matches resulted in 0 points/code.
