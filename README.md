@@ -70,10 +70,11 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * ~~Death timer in big matches doesn't work.~~
 * ~~Big match experience/code gained doesn't work well (it seems slot 0 keeps getting exp).~~
 * Big battle death match isn't working when playing on the beginner channel.
-* Crystal death adds exp/code twice (once per getResponse()).
+* ~~Crystal death adds exp/code twice (once per getResponse()).~~
 * ~~Setting the timer in infinity king/symbol isn't really changing the timer.~~ - it actually works well.
 
 # 20/05/2017
+* Fixed the bug where progressing in quests (by picking up crystals for example) would give you double experience/code.
 * Fixed a bug where the timer in infinity king mode or infinity symbol mode would start when you changed the game length, and not when you start the game.
 
 # 19/05/2017
