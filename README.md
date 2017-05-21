@@ -68,6 +68,9 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 # Known bugs
 * Big battle death match isn't working when playing on the beginner channel.
 
+# 21/05/2017
+* Fixed a bug where an Hibernate exception was thrown when disconnecting before logging in.
+
 # 20/05/2017
 * Found a way to translate all of the Korean texts in the game.
 * Fixed the bug where progressing in quests (by picking up crystals for example) would give you double experience/code.
