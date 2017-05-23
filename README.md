@@ -70,20 +70,30 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # 23/05/2017
 * Fixed a bug where you could purchase cards when you didn't have enough room to store them.
+* Fixed a bug where you could increase your cards slots amount even if you had the maximum amount.
 
-**The following are hacks/glitches there were possible, but got fixed**
-* Trying to buy a card that does not exist in the shop.
-* Trying to buy a card when you don't have enough money. 
-* Trying to buy any card other than avatar cards with coins.
-* Trying to force charge a card that does not exists.
-* Trying to force charge a card when you don't have enough cash.
-* Trying to force charge a card for a number of days that does not exist in the shop.
-* Trying to buy an element that does not exist (not water/fire/earth/wind).
-* Trying to buy a negative amount of elements/more than 9999 elements.
-* Trying to buy elements when you don't have enough code.
-* Trying to buy a scroll that does not exist.
-* Trying to buy a scroll when you don't have enough code.
-* Trying to change a character in mission training mode to a character that does not exist.
+**The following are hacks/glitches there were possible, but got fixed:**
+* Buying a card that does not exist in the shop.
+* Buying a card when you don't have enough money. 
+* Buying any card other than avatar cards with coins.
+* Force charging a card that does not exists.
+* Force charging a card when you don't have enough cash.
+* Force charging a card for a number of days that does not exist in the shop.
+* Buying an element that does not exist (not water/fire/earth/wind).
+* Buying a negative amount of elements/more than 9999 elements.
+* Buying elements when you don't have enough code.
+* Buying a scroll that does not exist.
+* Buying a scroll when you don't have enough code.
+* Changing a character in mission training mode to a character that does not exist.
+* Changing the room's password to a password longer than 12 characters long.
+* Sending an empty chat message.
+* Sending a chat message longer than 72 characters long.
+* Sending a GM chat message.
+* Searching for a username who has more than 12 characters.
+* Looking for the information of a username who has more than 12 characters.
+* Using the slots+6 or slots+12 cards when you didn't even have them.
+* Kicking a player even though you're not the master.
+* Kicking a player that does not exist.
 
 # 21/05/2017
 * Fixed a bug where an Hibernate exception was thrown when disconnecting before logging in.
