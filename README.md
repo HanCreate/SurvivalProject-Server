@@ -69,6 +69,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Big battle death match isn't working when playing on the beginner channel.
 
 # 23/05/2017
+* Fixed a bug where you could login with any password.
 * Fixed a bug where you could purchase cards when you didn't have enough room to store them.
 * Fixed a bug where you could increase your cards slots amount even if you had the maximum amount.
 
