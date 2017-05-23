@@ -68,6 +68,23 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 # Known bugs
 * Big battle death match isn't working when playing on the beginner channel.
 
+# 23/05/2017
+* Fixed a bug where you could purchase cards when you didn't have enough room to store them.
+
+**The following are hacks/glitches there were possible, but got fixed**
+* Trying to buy a card that does not exist in the shop.
+* Trying to buy a card when you don't have enough money. 
+* Trying to buy any card other than avatar cards with coins.
+* Trying to force charge a card that does not exists.
+* Trying to force charge a card when you don't have enough cash.
+* Trying to force charge a card for a number of days that does not exist in the shop.
+* Trying to buy an element that does not exist (not water/fire/earth/wind).
+* Trying to buy a negative amount of elements/more than 9999 elements.
+* Trying to buy elements when you don't have enough code.
+* Trying to buy a scroll that does not exist.
+* Trying to buy a scroll when you don't have enough code.
+* Trying to change a character in mission training mode to a character that does not exist.
+
 # 21/05/2017
 * Fixed a bug where an Hibernate exception was thrown when disconnecting before logging in.
 
