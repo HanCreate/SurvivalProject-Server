@@ -58,7 +58,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [x] Handle a player leave and a team leave on all of the game modes (what happens when all of the players of one team leave? The other team should get a draw).
 
 # TODOs that can't be completed at the moment
-- [ ] Try to find a way to translate the korean macros and if I can't, change the built-in korean commands to my own commands.
+- [x] Try to find a way to translate the korean macros and if I can't, change the built-in korean commands to my own commands.
 - [ ] The option to send a reject message (after an invitation) is grayed out for some reason. If I manage to fix it, I need to make sure it actually works.
 - [ ] The option to change a character's color is grayed out for some reason. If I manage to fix it, I need to make sure it actually works.
 - [ ] The experience/code a player gains after every game mode (except infinity game modes) isn't correct - no videos or data about how much code and experience a player should get after a game is completed was found.
@@ -69,6 +69,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * You shouldn't get any experience when killing players in crystal mode, but instead get experience when a round is over. I believe the winners get x1.5 experience.
 
 # 25/05/2017
+* Found a much better and faster way to translate the game.
 * If someone has more points than the king in infinity king mode, he now becomes the new king (can't believe I forgot to implement that lol).
 * If the hero in hero mode leaves, the game ends in a draw.
 * If one of the kings in king slayer mode leaves, the game ends in a draw.
