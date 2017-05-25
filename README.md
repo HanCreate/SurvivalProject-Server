@@ -68,7 +68,9 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Big battle death match isn't working when playing on the beginner channel.
 
 # 25/05/2017
-**If the entire blue/red team leaves the game, the game ends with a draw in the following modes:**
+* If the hero in hero mode leaves, the game ends in a draw.
+
+**If the entire blue/red team leaves the game, the game ends in a draw in the following modes:**
 * Duel mode
 * Assault mode
 * Symbol mode
