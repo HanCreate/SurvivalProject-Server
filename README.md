@@ -71,6 +71,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * If someone has more points than the king in infinity king mode, he now becomes the new king (can't believe I forgot to implement that lol).
 * If the hero in hero mode leaves, the game ends in a draw.
 * If one of the kings in king slayer mode leaves, the game ends in a draw.
+* If one of the kings in infinity king mode leaves, the next person with the highest points becomes the new king.
 * If someone leaves a crystal capture game while having crystals, the team loses all of his crystals (the game still goes on).
 
 **If the entire blue/red team leaves the game, the game ends in a draw in the following modes:**
