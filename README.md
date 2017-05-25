@@ -51,6 +51,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [ ] Super Silver
 
 # TODO
+- [ ] Implement all of the new built-in Korean (now English) chat commands.
 - [ ] Change the server sockets to NIO sockets.
 - [ ] Change every game over message to a round over message.
 - [ ] Clean the game modes code a bit.
