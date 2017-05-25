@@ -73,6 +73,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * If one of the kings in king slayer mode leaves, the game ends in a draw.
 * If one of the kings in infinity king mode leaves, the next person with the highest points becomes the new king.
 * If someone leaves a crystal capture game while having crystals, the team loses all of his crystals (the game still goes on).
+* Fixed a bug where if a non king player died in infinity king mode, that player would've gotten a point, instead of the killer.
 
 **If the entire blue/red team leaves the game, the game ends in a draw in the following modes:**
 * Duel mode
@@ -86,7 +87,6 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Mole mode
 * Tournament mode
 
-* Fixed a bug where if a non king player died in infinity king mode, that player would've gotten a point, instead of the killer.
 # 23/05/2017
 * Fixed a bug where trying to join a room that was already closed would have thrown an exception.
 * Fixed a bug where you could login with any password.
