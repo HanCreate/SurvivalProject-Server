@@ -66,6 +66,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # Known bugs
 * Big battle death match isn't working when playing on the beginner channel.
+* You shouldn't get any experience when killing players in crystal mode, but instead get experience when a round is over. I believe the winners get x1.5 experience.
 
 # 25/05/2017
 * If someone has more points than the king in infinity king mode, he now becomes the new king (can't believe I forgot to implement that lol).
