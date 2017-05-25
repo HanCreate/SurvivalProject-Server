@@ -55,7 +55,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [ ] Change every game over message to a round over message.
 - [ ] Clean the game modes code a bit.
 - [ ] Master card code should be x2 and not x1.5 in some game modes.
-- [ ] Handle a player leave and a team leave on all of the game modes (what happens when all of the players of one team leave? The other team should get a draw).
+- [x] Handle a player leave and a team leave on all of the game modes (what happens when all of the players of one team leave? The other team should get a draw).
 
 # TODOs that can't be completed at the moment
 - [ ] Try to find a way to translate the korean macros and if I can't, change the built-in korean commands to my own commands.
@@ -75,6 +75,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * If someone leaves a crystal capture game while having crystals, the team loses all of his crystals (the game still goes on).
 * Fixed a bug where if a non king player died in infinity king mode, that player would've gotten a point, instead of the killer.
 * Fixed a bug where if you left an infinity king or infinity symbol game and rejoined, you started with 0 points, instead of 1.
+* Fixed a bug where you didn't get any points when killing other players in infinity symbol mode.
 
 **If the entire blue/red team leaves the game, the game ends in a draw in the following modes:**
 * Duel mode
