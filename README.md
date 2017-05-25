@@ -67,6 +67,19 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 # Known bugs
 * Big battle death match isn't working when playing on the beginner channel.
 
+# 25/05/2017
+**If the entire blue/red team leaves the game, the game ends with a draw in the following modes:**
+* Duel mode
+* Assault mode
+* Symbol mode
+* Teamplay mode
+* Soccer mode
+* Race mode
+* Dodge mode
+* Hockey mode
+* Mole mode
+* Tournament mode
+
 # 23/05/2017
 * Fixed a bug where trying to join a room that was already closed would have thrown an exception.
 * Fixed a bug where you could login with any password.
