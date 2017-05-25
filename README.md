@@ -68,6 +68,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Big battle death match isn't working when playing on the beginner channel.
 
 # 25/05/2017
+* If someone has more points than the king in infinity king mode, he now becomes the new king (can't believe I forgot to implement that lol).
 * If the hero in hero mode leaves, the game ends in a draw.
 * If one of the kings in king slayer mode leaves, the game ends in a draw.
 * If someone leaves a crystal capture game while having crystals, the team loses all of his crystals (the game still goes on).
@@ -84,6 +85,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Mole mode
 * Tournament mode
 
+* Fixed a bug where if a non king player died in infinity king mode, that player would've gotten a point, instead of the killer.
 # 23/05/2017
 * Fixed a bug where trying to join a room that was already closed would have thrown an exception.
 * Fixed a bug where you could login with any password.
