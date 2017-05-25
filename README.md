@@ -74,6 +74,7 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * If one of the kings in infinity king mode leaves, the next person with the highest points becomes the new king.
 * If someone leaves a crystal capture game while having crystals, the team loses all of his crystals (the game still goes on).
 * Fixed a bug where if a non king player died in infinity king mode, that player would've gotten a point, instead of the killer.
+* Fixed a bug where if you left an infinity king or infinity symbol game and rejoined, you started with 0 points, instead of 1.
 
 **If the entire blue/red team leaves the game, the game ends in a draw in the following modes:**
 * Duel mode
