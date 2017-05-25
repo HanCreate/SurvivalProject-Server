@@ -69,6 +69,8 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 
 # 25/05/2017
 * If the hero in hero mode leaves, the game ends in a draw.
+* If one of the kings in king slayer mode leaves, the game ends in a draw.
+* If someone leaves a crystal capture game while having crystals, the team loses all of his crystals (the game still goes on).
 
 **If the entire blue/red team leaves the game, the game ends in a draw in the following modes:**
 * Duel mode
