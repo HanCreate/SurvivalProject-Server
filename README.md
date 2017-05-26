@@ -7,7 +7,10 @@ For instructions on how to install Survival Project on Windows 10, go to the Win
 
 Time spent on the project: **10 weeks**.
 
-For a weekly summary of the progress I'm making, follow me here:
+You can contact me here:
+https://discord.gg/ZNpVa2m
+
+Also here:
 https://www.reddit.com/r/survivalproject/comments/5zm36i/started_writing_a_private_server_in_java
 
 # Built-in chat commands
@@ -68,6 +71,10 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 # Known bugs
 * Big battle death match isn't working when playing on the beginner channel.
 * You shouldn't get any experience when killing players in crystal mode, but instead get experience when a round is over. I believe the winners get x1.5 experience.
+
+# 26/05/2017
+* The experience you get in big match survival mode was reduced by 66% to balance things out a bit.
+* Fixed a bug where killing an NPC with no multiplier (a gray NPC) would show a message you got 0 experience, instead of not showing anything at all.
 
 # 25/05/2017
 * Found a much better and faster way to translate the game.
