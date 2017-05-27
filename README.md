@@ -72,6 +72,9 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 * Big battle death match isn't working when playing on the beginner channel.
 * You shouldn't get any experience when killing players in crystal mode, but instead get experience when a round is over. I believe the winners get x1.5 experience.
 
+# 27/05/2017
+* Passwords are no longer stored in the database as plain text. They're now encrypted.
+
 # 26/05/2017
 * The elements rate is now based on the total HP of your target. Enemies with low HP has a low chance to give you any element when you kill them, and high HP enemies (such as Efreets) have a higher chance to give you elements. It also means you get less elements in lower channels.
 * The experience you get in big match survival mode was reduced by 66% to balance things out a bit.
