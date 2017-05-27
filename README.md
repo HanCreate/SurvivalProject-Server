@@ -5,7 +5,7 @@ Server files for the game Survival Project, written in Java.
 
 For instructions on how to install Survival Project on Windows 10, go to the Win10 folder.
 
-Time spent on the project: **10 weeks**.
+Time spent on the project: **11 weeks**.
 
 You can contact me here:
 https://discord.gg/ZNpVa2m
@@ -59,10 +59,8 @@ There are some visual bugs in the client that the server cannot fix. To fix them
 - [ ] Change every game over message to a round over message.
 - [ ] Clean the game modes code a bit.
 - [ ] Master card code should be x2 and not x1.5 in some game modes.
-- [x] Handle a player leave and a team leave on all of the game modes (what happens when all of the players of one team leave? The other team should get a draw).
 
 # TODOs that can't be completed at the moment
-- [x] Try to find a way to translate the korean macros and if I can't, change the built-in korean commands to my own commands.
 - [ ] The option to send a reject message (after an invitation) is grayed out for some reason. If I manage to fix it, I need to make sure it actually works.
 - [ ] The option to change a character's color is grayed out for some reason. If I manage to fix it, I need to make sure it actually works.
 - [ ] The experience/code a player gains after every game mode (except infinity game modes) isn't correct - no videos or data about how much code and experience a player should get after a game is completed was found.
